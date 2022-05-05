@@ -110,7 +110,7 @@ i {
     height: 15vw;
 }
 
-img{
+img {
     object-fit: cover;
     width: 100%;
 }
@@ -132,7 +132,35 @@ img{
 }
 
 .padding-right {
-    padding-right: 10%;
+    padding-right: 40%;
+}
+
+.padding-top {
+    padding-top: 8%;
+}
+
+.padding-bottom {
+    padding-bottom: 8%;
+}
+
+.padding-top2 {
+    padding-top: 3%;
+}
+
+.padding-left0 {
+    padding-left: 44%;
+}
+
+.padding-left {
+    padding-left: 40%;
+}
+
+.padding-left2 {
+    padding-left: 46%;
+}
+
+.padding-left3 {
+    padding-left: 35%;
 }
 
 .padding-mobile {
@@ -143,7 +171,53 @@ img{
     border-radius: 0;
 }
 
+.titulo {
+    text-align: center;
+}
+
+.registro {
+    border: 2px solid;
+    margin-top: 6%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: black;
+    border-color: lightskyblue;
+    color: lightskyblue;
+}
+
+.login {
+    border: 2px solid;
+    margin-top: 6%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: black;
+    border-color: rgb(255, 255, 152);
+    color: rgb(255, 255, 152);
+}
+
+.subir {
+    border: 2px solid;
+    margin-top: 6%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: white;
+    border-color: rgb(4, 92, 27);
+    color: rgb(4, 92, 27);
+}
+
+.padding-3 {
+    padding-top: -20%;
+}
+
+
 /* Responsive: 800px */
+
 @media only screen and (max-width: 800px) {
     /*reglas*/
     header {
@@ -181,7 +255,6 @@ img{
     .padding-mobile {
         padding: 1% 2% 1% 2%;
     }
-
     .padding-right {
         padding-right: 2%;
     }
@@ -192,6 +265,7 @@ img{
         padding: 0;
     }
 }
+
 
 /* Responsive móbil: 400px*/
 

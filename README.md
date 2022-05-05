@@ -55,3 +55,14 @@ Este desafío requiere que los desarrolladores que lo implementen siga estas res
 ## Example projects
 
 - [Live de la app](https://dannylarrea.github.io/app-actividades/index.html)
+
+## Issues
+- base de datos: pensar la estructura (tablas y relaciones) y montarla
+- (actividades) base de datos y PHP: query relacionada a Top 5 (actividades.html) y montar la lógica de programación
+- (actividades) base de datos y PHP: query relacionada a Explora (actividades.html) y montar la lógica de programación
+- (nosotros.html) base de datos y PHP: query relacionada a Subidas recientemente y montar la lógica de programación
+- (login) base de datos y PHP: query de login y montar lógica de programación relacionada al login (sesiones...)
+- (registro) base de datos y PHP: query de registro y montar lógica de programación relacionada al registro
+- (subir actividad) base de datos y PHP: query de subir actividad y montar lógica de programación relacionada a subir actividad
+- (mis actividades) base de datos y PHP: query de ver mis actividades y montar lógica de programación relacionada a ver mis actividades
+- (corazón) base de datos y PHP: registro de likes
