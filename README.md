@@ -66,3 +66,6 @@ Este desafío requiere que los desarrolladores que lo implementen siga estas res
 - (subir actividad) base de datos y PHP: query de subir actividad y montar lógica de programación relacionada a subir actividad
 - (mis actividades) base de datos y PHP: query de ver mis actividades y montar lógica de programación relacionada a ver mis actividades
 - (corazón) base de datos y PHP: registro de likes
+
+Usuario - hugo@gmail.com | contraseña - 1234 | nombre - Hugo
+Usuario - ricardo@gmail.com | contraseña - 1234 | nombre - Ricardo

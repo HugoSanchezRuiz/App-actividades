@@ -15,6 +15,7 @@ CREATE TABLE tbl_actividad(
     nombre_actividad varchar(30) NULL,
     desc_actividad varchar(120) NULL,
     lugar_actividad varchar (60) NULL,
+    foto_actividad varchar (40) NULL,
     id_usuario int(4) NUll
 
 );

@@ -11,29 +11,35 @@
 <body style="background-color: rgb(4, 92, 27);">
      <!-- Subir Actividad -->
 
-     <form action="./insertarmisactividades.php" method="post" class="subir">
+     <form action="./insertarmisactividades.php" method="post" class="subir" enctype="multipart/form-data">
         <h1 class="titulo padding-top">Registro Actividad</h1>
-
+        <br>
         <div class="input-group input-group-sm mb-3 padding-left padding-top2 padding-right">
             <input type="text" name="nombre_actividad" placeholder="Nombre" class="form-control" id="inputGroup-sizing-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
         </div>
         <br>
-        <br>
         <div class="input-group input-group-sm mb-3 padding-left padding-right">
-            <textarea name="desc_actividad" id="inputGroup-sizing-sm" class="form-control" placeholder="Descripción" cols="30" rows="10" required></textarea>
+            <textarea name="desc_actividad" id="inputGroup-sizing-sm" class="form-control" placeholder="Descripción" cols="30" rows="2" required></textarea>
         </div>
-        <br>
         <br>
         <div class="input-group input-group-sm mb-3 padding-left padding-right">
             <input type="text" name="lugar_actividad" placeholder="Lugar" aria-describedby="inputGroup-sizing-sm" class="form-control" id="inputGroup-sizing-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
         </div>
         <br>
+        <div class="input-group input-group-sm mb-3 padding-left padding-right">
+            <input type="file" name="foto_actividad" placeholder="Foto" aria-describedby="inputGroup-sizing-sm" class="form-control" id="inputGroup-sizing-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+        </div>
         <br>
         <div class="padding-left0 padding-bottom">
             <button type="submit" value="enviar" class="btn btn-success">Subir</button>
-            
         </div>
 
     </form>
+    <br>
+    <br>
+    <br>
+    <div class="padding-left5">
+            <button type="button" value="Atrás" onclick="window.location.href = '../misactividades.php'" class="btn btn-light">Atrás</button>
+        </div>
 </body>
 </html>

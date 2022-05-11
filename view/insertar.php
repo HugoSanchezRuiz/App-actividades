@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Document</title>
+    <title>Insert</title>
 </head>
 <body>
 
@@ -47,7 +47,7 @@
                             })
                     }
 
-                    aviso('./nosotros.html');
+                    aviso('./nosotros.php');
                 </script>
                 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <?php

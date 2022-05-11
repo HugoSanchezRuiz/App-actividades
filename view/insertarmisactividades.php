@@ -10,14 +10,17 @@
     <?php
 
         include 'conexion.php';
+        
 
         
         $nombre_actividad = $_POST['nombre_actividad'];
         $desc_actividad = $_POST['desc_actividad'];
         $lugar_actividad = $_POST['lugar_actividad'];
-    
-        $sql = "INSERT INTO `tbl_actividad` (`nombre_actividad`,`desc_actividad`, `lugar_actividad`) VALUES ('$nombre_actividad','$desc_actividad','$lugar_actividad')";
-        $insert = mysqli_query($conexion, $sql);
+        $path=date('h-i-s-j-m-y')."-".$_FILES['foto_actividad']['name'];     
+        if (move_uploaded_file($_FILES['foto_actividad']['tmp_name'],'../img/'.$path)) {
+            $sql = "INSERT INTO `tbl_actividad` (`nombre_actividad`,`desc_actividad`, `lugar_actividad`,`foto_actividad`) VALUES ('$nombre_actividad','$desc_actividad','$lugar_actividad','$path')";
+            $insert = mysqli_query($conexion, $sql);
+        }
 
     ?>
 
@@ -37,7 +40,7 @@
                 })
         }
 
-        aviso('./nosotros.html');
+        aviso('./nosotros.php');
     </script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
